@@ -1,3 +1,5 @@
+使用puppeteer，简单封装html转文件的功能；缓存浏览器以及多页面，减少每次转换初始化无头浏览器的性能开销，加快转换效率；模拟简单队列，利用缓存的多页面，保证任务的页面分配，来高效完成转换任务；
+
 Simple encapsulation uses Puppeteer to convert HTML to files.
 
 Added headless browser cache and page cache.
