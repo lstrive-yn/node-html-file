@@ -1,0 +1,18 @@
+{
+  "name": "node-html-file",
+  "keywords": ["html-pdf", "html-img", "node", "html-file"],
+  "version": "1.0.0",
+  "description": "transform html to file(dpf/jpeg/png) in server side with puppeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "puppeteer": "^7.0.1"
+  },
+  "devDependencies": {
+    "puppeteer": "^7.0.1"
+  },
+  "author": "lstrive",
+  "license": "ISC"
+}
