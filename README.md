@@ -17,6 +17,7 @@ The initial creation instance ensures that the browser and page are not complete
     const TransformToTile = require("node-html-file");
 
     // create transform instance and  pass the number of pages  parameters，4 by default;
+    // 创建转换实例，并且传递需要缓存的页面数量，根据实际并发情况缓存，不考虑并发缓存一个页面即可；默认情况下会缓存四个页面
     const transform = new TransformToTile(4)
 
 start to transform:
@@ -24,7 +25,7 @@ start to transform:
     const html = "<div>this is test html content<div>"
 
     // will add to tasks queue，and will consumer queue until no task added
-
+    // path是转存服务器本地的路径；
     transform.transformToFile({
         html,
         type: "jpeg", // png

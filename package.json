@@ -1,7 +1,7 @@
 {
   "name": "node-html-file",
   "keywords": ["html-pdf", "html-img", "node", "html-file"],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "transform html to file(pdf/jpeg/png) in server side with puppeter",
   "main": "index.js",
   "scripts": {
