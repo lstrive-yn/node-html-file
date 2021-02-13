@@ -28,7 +28,7 @@ start to transform:
     // path是转存服务器本地的路径；
     transform.transformToFile({
         html,
-        type: "jpeg", // png
+        type: "jpeg", // png/pdf
         path: "./transform.jpeg",
         isBuffer: true,
         callback: (buffer) => {
